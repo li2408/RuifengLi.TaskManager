@@ -3,7 +3,8 @@
 This is an application to manager day to day tasks. The technoligies used in this project are Angular and .Net Core Web API, Entity Framework Core, SQL Server Database.
 
 ### Usage:
-Please use http://localhost:4200 to access the website.
+Please use http://localhost:4200 to access the website. <br/>
+All the files related to Angular is stored in the folder TaskManager.Angular.<br/>
 All the API details will show up on the Swagger UI.
 
 ### Pages and functionalities introduction:
