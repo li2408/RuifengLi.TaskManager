@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <h1>The user's tasks</h1>
+  <p class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button class="btn btn-secondary" style="margin:5px" type="button" [routerLink]="['/tasks/taskshistory',userId]">Task History</button>
+    <button class="btn btn-primary" style="margin:5px" type="button" [routerLink]="['/tasks/addtask',userId]">Add a task</button>
+  </p>
+    <div class="row"> 
+      <div class="col-6 col-lg-3 col-sm-4 col-xl-2" *ngFor="let task of tasks">
+        <div>
+            <app-user-task-card [task] = 'task'> </app-user-task-card>
+        </div>
+      </div> 
+    </div>
+  </div>
+  
